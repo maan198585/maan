@@ -10,5 +10,10 @@
 	<classpathentry kind="lib" path="C:/Users/harneet/Downloads/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/harneet/Downloads/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/harneet/Downloads/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
