@@ -1,7 +1,5 @@
 package Selenium;
 
-import java.io.File;
-import java.nio.file.Files;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -21,7 +19,7 @@ public class TakeSnap {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source,new File("C:\\Users\\harneet\\Desktop\\Selenium Softwares\\screenshot.png"));
-		dirver.quit();
+		driver.quit();
 	}
 
 }
