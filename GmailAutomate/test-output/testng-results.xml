@@ -1,43 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1014" started-at="2020-01-29T18:04:34Z" finished-at="2020-01-29T18:04:35Z">
+  <suite name="Default suite" duration-ms="48030" started-at="2020-01-30T19:39:53Z" finished-at="2020-01-30T19:40:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1014" started-at="2020-01-29T18:04:34Z" finished-at="2020-01-29T18:04:35Z">
-      <class name="MavenDEMO.GmailAutomate.extent_report1">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="startReport" is-config="true" duration-ms="396" started-at="2020-01-29T10:04:34Z" finished-at="2020-01-29T10:04:34Z">
+    <test name="Default test" duration-ms="48030" started-at="2020-01-30T19:39:53Z" finished-at="2020-01-30T19:40:41Z">
+      <class name="MavenDEMO.GmailAutomate.extentReport2">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="startReport" is-config="true" duration-ms="316" started-at="2020-01-30T11:39:53Z" finished-at="2020-01-30T11:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="demoReportPass()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="demoReportPass" duration-ms="18" started-at="2020-01-29T10:04:34Z" finished-at="2020-01-29T10:04:34Z">
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="setuptest" is-config="true" duration-ms="15100" started-at="2020-01-30T11:39:53Z" finished-at="2020-01-30T11:40:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoReportPass -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="getResult" is-config="true" duration-ms="4" started-at="2020-01-29T10:04:34Z" finished-at="2020-01-29T10:04:35Z">
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="verifylogotest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="verifylogotest" duration-ms="1581" started-at="2020-01-30T11:40:08Z" finished-at="2020-01-30T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogotest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="getResult" is-config="true" duration-ms="12" started-at="2020-01-30T11:40:10Z" finished-at="2020-01-30T11:40:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demoReportPass status=SUCCESS method=extent_report1.demoReportPass()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5] output={null}]]]>
+                <![CDATA[[TestResult name=verifylogotest status=SUCCESS method=extentReport2.verifylogotest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="demoReportfail()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="demoReportfail" duration-ms="3" started-at="2020-01-29T10:04:35Z" finished-at="2020-01-29T10:04:35Z">
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="setuptest" is-config="true" duration-ms="11349" started-at="2020-01-30T11:40:10Z" finished-at="2020-01-30T11:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="wellsfargologintest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="wellsfargologintest" duration-ms="7" started-at="2020-01-30T11:40:21Z" finished-at="2020-01-30T11:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wellsfargologintest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="getResult" is-config="true" duration-ms="1" started-at="2020-01-30T11:40:21Z" finished-at="2020-01-30T11:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wellsfargologintest status=SUCCESS method=extentReport2.wellsfargologintest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="setuptest" is-config="true" duration-ms="16791" started-at="2020-01-30T11:40:21Z" finished-at="2020-01-30T11:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method status="FAIL" signature="wellsfargotitletest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="wellsfargotitletest" duration-ms="177" started-at="2020-01-30T11:40:38Z" finished-at="2020-01-30T11:40:38Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[expected [Wells Fargo] but found [Wells Fargo – Banking, Credit Cards, Loans, Mortgages & More]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: expected [Wells Fargo] but found [Wells Fargo – Banking, Credit Cards, Loans, Mortgages & More]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at MavenDEMO.GmailAutomate.extent_report1.demoReportfail(extent_report1.java:40)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at MavenDEMO.GmailAutomate.extentReport2.wellsfargotitletest(extentReport2.java:73)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -68,23 +97,23 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoReportfail -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="getResult" is-config="true" duration-ms="4" started-at="2020-01-29T10:04:35Z" finished-at="2020-01-29T10:04:35Z">
+        </test-method> <!-- wellsfargotitletest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="getResult" is-config="true" duration-ms="2026" started-at="2020-01-30T11:40:38Z" finished-at="2020-01-30T11:40:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demoReportfail status=FAILURE method=extent_report1.demoReportfail()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5] output={null}]]]>
+                <![CDATA[[TestResult name=wellsfargotitletest status=FAILURE method=extentReport2.wellsfargotitletest()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:MavenDEMO.GmailAutomate.extent_report1@6adede5]" name="endReport" is-config="true" duration-ms="558" started-at="2020-01-29T10:04:35Z" finished-at="2020-01-29T10:04:35Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:MavenDEMO.GmailAutomate.extentReport2@2038ae61]" name="endReport" is-config="true" duration-ms="617" started-at="2020-01-30T11:40:40Z" finished-at="2020-01-30T11:40:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- MavenDEMO.GmailAutomate.extent_report1 -->
+      </class> <!-- MavenDEMO.GmailAutomate.extentReport2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

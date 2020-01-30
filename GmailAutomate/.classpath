@@ -49,5 +49,10 @@
 	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/jar_files/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/jar_files/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/com.mysql.jdbc_5.1.5.jar/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/jar_files (1)/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/jar_files (1)/protobuf-java-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/Mysql Jar/jar_files (2)/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/harneet/Desktop/Selenium Softwares/Mysql Jar/jar_files (2)/protobuf-java-3.6.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

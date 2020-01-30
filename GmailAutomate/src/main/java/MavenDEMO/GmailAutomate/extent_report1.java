@@ -49,6 +49,7 @@ public class extent_report1 {
 	}
 	extent.endTest(test);
 	}
+	
 	@AfterTest
 	public void endReport()
 	{
